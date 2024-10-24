@@ -3888,6 +3888,11 @@ textarea.form-control-lg {
   align-items: center;
 }
 
+.navbar img {
+  max-width: 100%; /* Ensure the image does not exceed the width of its container */
+  height: auto;    /* Maintain aspect ratio */
+}
+
 .navbar-toggler {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
